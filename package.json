@@ -1,0 +1,42 @@
+{
+  "name": "gql-test",
+  "version": "1.0.0",
+  "description": "integration tests for graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/consciousconsumers/dbtest.git"
+  },
+  "author": "Gardner Bickford <gardner@consciousconsumers.org.nz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/consciousconsumers/dbtest/issues"
+  },
+  "homepage": "https://github.com/consciousconsumers/dbtest#readme",
+  "dependencies": {
+    "apollo-boost": "^0.1.4",
+    "apollo-link-context": "^1.0.8",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.1",
+    "jest": "^22.4.3",
+    "jest-junit": "^3.7.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.2",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jest": "^21.15.1",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "node-fetch": "^2.1.2",
+    "regenerator-runtime": "^0.11.1",
+    "standard": "^11.0.1"
+  }
+}
